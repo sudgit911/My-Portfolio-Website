@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Resume Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #c1cf23;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #e74c3c;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ecf0f1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #f39c12;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 5px;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sudarshan Ingale</h1>
+        
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I’m Sudarshan Ingale, a passionate Data Science Enthusiast. With a strong background in Web development, and Data Science, I love building impactful and meaningful projects that provide seamless user experiences.</p>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Integrated Active Monitoring Pvt Ltd, Pune</strong> - Python Intern (07/2023 - 05/2024)
+                    <p>Developed and implemented remote SSH Client and Server Scripts on 2 Raspberry Pi devices to enable efficient data
+                        transfer via Bluetooth low energy technology. Enhanced transfer protocols by integrating error-checking mechanisms,
+                        improving transfer reliability by 25%.</p>
+                </li>
+                <li><strong>IUCAA, Pune</strong> - Python Intern(GUI) (09/2024 - ongoing)
+                    <p>Description of responsibilities, key achievements, and skills acquired.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project Name</strong> - (Link to Project)
+                    <p>Short description of the project and what you did.</p>
+                </li>
+                <li><strong>Project Name</strong> - (Link to Project)
+                    <p>Short description of the project and what you did.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <a href="mailto:sudarshan.ingale2468@gmail.com">sudarshan.ingale2468@gmail.com</a>
+                <a href="tel:+91-9403674249">+91-9403674249</a>
+                <a href="https://www.linkedin.com/in/sudarshan-ingale-5b0525240/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/sudgit911" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
